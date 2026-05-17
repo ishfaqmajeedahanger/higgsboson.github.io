@@ -8,8 +8,6 @@ body {
 
     font-family: "Times New Roman";
 
-    font-size: 18px;
-
     transition: 0.4s;
 
 }
@@ -26,11 +24,11 @@ body {
 
 }
 
-/* MENU ICON */
+/* MENU */
 
 .menu-icon {
 
-    font-size: 40px;
+    font-size: 32px;
 
     cursor: pointer;
 
@@ -40,7 +38,7 @@ body {
 
 .moon {
 
-    font-size: 35px;
+    font-size: 30px;
 
     cursor: pointer;
 
@@ -56,19 +54,19 @@ body {
 
     left: -250px;
 
-    width: 200px;
+    width: 220px;
 
     height: 100%;
 
     background: #111;
 
-    padding-top: 100px;
-
     transition: 0.4s;
+
+    padding-top: 80px;
 
 }
 
-/* MENU LINKS */
+/* LINKS */
 
 .side-menu a {
 
@@ -78,9 +76,9 @@ body {
 
     text-decoration: none;
 
-    padding: 20px;
+    padding: 18px;
 
-    font-size: 22px;
+    font-size: 20px;
 
 }
 
@@ -88,49 +86,35 @@ body {
 
 .content {
 
-    padding: 30px;
+    padding: 20px;
 
 }
+
+/* TITLE */
 
 h1 {
 
-    font-size: 60px;
+    font-size: clamp(32px, 7vw, 60px);
 
 }
+
+/* SUBTITLE */
 
 .subtitle {
 
-    font-size: 24px;
+    font-size: clamp(16px, 3vw, 24px);
 
 }
 
-h2 {
+/* PHOTO */
 
-    margin-top: 80px;
+.profile-photo {
 
-    border-bottom: 1px solid white;
+    width: 180px;
 
-    padding-bottom: 10px;
+    border-radius: 50%;
 
-    font-size: 36px;
-
-}
-
-p {
-
-    line-height: 1.8;
-
-}
-
-/* IMAGE */
-
-img {
-
-    width: 220px;
-
-    border-radius: 20px;
-
-    margin-top: 20px;
+    margin-top: 30px;
 
 }
 
@@ -147,12 +131,6 @@ img {
 .light-mode .side-menu {
 
     background: #ddd;
-
-}
-
-.light-mode h2 {
-
-    border-bottom: 1px solid black;
 
 }
 
