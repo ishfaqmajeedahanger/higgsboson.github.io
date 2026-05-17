@@ -2,12 +2,7 @@ body { line-height: 1.8;
 
     margin: 0;
 
-    background: linear-gradient(
-to bottom,
-#0a0a0a,
-#111827,
-#000000
-);
+    background-color: #050505;
 
     color: white;
 
