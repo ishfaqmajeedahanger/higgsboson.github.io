@@ -2,24 +2,78 @@ body {
 
     background-color: black;
 
-    font-family: Times new roman;
+    color: white;
 
-    text-align: left;
+    font-family: "Times New Roman";
 
-    padding-top: 100px;
+    font-size: 12pt;
+
+    padding: 40px;
+
+    transition: 0.5s;
 
 }
 
 h1 {
 
-    color: white;
+    font-size: 40px;
 
-    font-size: 80px;
+}
+
+h2 {
+
+    margin-top: 80px;
+
+    border-bottom: 1px solid white;
+
+    padding-bottom: 10px;
 
 }
 
 p {
 
-    font-size: 32px;
+    line-height: 1.8;
+
+}
+
+img {
+
+    margin-top: 20px;
+
+    border-radius: 10px;
+
+}
+
+#theme-button {
+
+    position: fixed;
+
+    top: 20px;
+
+    right: 20px;
+
+    font-size: 20px;
+
+    background: none;
+
+    border: none;
+
+    color: white;
+
+    cursor: pointer;
+
+}
+
+.light-mode {
+
+    background-color: white;
+
+    color: black;
+
+}
+
+.light-mode h2 {
+
+    border-bottom: 1px solid black;
 
 }
