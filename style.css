@@ -6,7 +6,7 @@ body { line-height: 1.8;
 
     color: white;
 
-    font-family: Georgia, serif;
+    font-family: "Times New Roman", serif;
 
     transition: 0.4s;
 
@@ -100,7 +100,7 @@ h1 {
 
     h1 {
 
-    font-size: clamp(28px, 5vw, 54px);
+    font-size: clamp(26px, 4.5vw, 58px);
 
     text-align: center;
 
@@ -113,6 +113,10 @@ h1 {
     color: white;
 
     line-height: 1.3;
+
+    word-break: keep-all;
+
+    overflow-wrap: break-word;
 
     text-shadow:
     0px 0px 15px rgba(255,255,255,0.15);
