@@ -319,3 +319,22 @@ h2 {
     letter-spacing: 20px;
 
 }
+.main-name {
+
+    text-align: center;
+
+    width: 100%;
+
+    display: block;
+
+    margin-top: 20px;
+
+    margin-bottom: 20px;
+
+    font-size: clamp(28px, 5vw, 60px);
+
+    color: white;
+
+    line-height: 1.3;
+
+}
