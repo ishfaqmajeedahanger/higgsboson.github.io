@@ -4,9 +4,11 @@ const sideMenu = document.getElementById("sideMenu");
 
 const moon = document.getElementById("moon");
 
-/* MENU */
+/* OPEN MENU */
 
-menuIcon.onclick = function () {
+menuIcon.onclick = function (event) {
+
+    event.stopPropagation();
 
     if (sideMenu.style.left === "0px") {
 
@@ -22,21 +24,20 @@ menuIcon.onclick = function () {
 
 };
 
-/* CLOSE MENU WHEN LINK CLICKED */
+/* CLOSE MENU WHEN CLICKING OUTSIDE */
 
-const links = document.querySelectorAll(".side-menu a");
+document.onclick = function (event) {
 
-links.forEach(link => {
-
-    link.onclick = function () {
+    if (!sideMenu.contains(event.target) &&
+        event.target !== menuIcon) {
 
         sideMenu.style.left = "-250px";
 
-    };
+    }
 
-});
+};
 
-/* LIGHT MODE */
+/* LIGHT / DARK MODE */
 
 moon.onclick = function () {
 
