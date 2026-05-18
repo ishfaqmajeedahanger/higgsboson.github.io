@@ -1,6 +1,4 @@
-// ==========================================
-// 1. YOUR EXISTING UI & SIDEBAR CONTROLS
-// ==========================================
+
 const menuIcon = document.getElementById("menuIcon");
 const sideMenu = document.getElementById("sideMenu");
 const moon = document.getElementById("moon");
@@ -28,9 +26,7 @@ moon.onclick = function () {
 };
 
 
-// ==========================================
-// 2. NEW BIOPHYSICS ML DYNAMIC ART ANIMATION
-// ==========================================
+// NEW BIOPHYSICS 
 const canvas = document.getElementById('biophysicsCanvas');
 const ctx = canvas.getContext('2d');
 
