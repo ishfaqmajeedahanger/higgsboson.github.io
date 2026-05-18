@@ -167,17 +167,99 @@ h2 {
 
 /* LAB ART */
 
-.lab-art {
+/* AI + BIOPHYSICS ANIMATION */
 
-    text-align: center;
+.ml-animation {
 
-    font-size: 60px;
+    position: relative;
 
-    margin-top: 30px;
+    width: 300px;
 
-    margin-bottom: 30px;
+    height: 200px;
 
-    letter-spacing: 20px;
+    margin: 40px auto;
+
+}
+
+/* CIRCLES */
+
+.circle {
+
+    position: absolute;
+
+    width: 35px;
+
+    height: 35px;
+
+    border-radius: 50%;
+
+    background: white;
+
+    box-shadow:
+    0px 0px 20px rgba(255,255,255,0.5);
+
+    animation: float 4s infinite ease-in-out;
+
+}
+
+/* DIFFERENT POSITIONS */
+
+.c1 {
+
+    top: 20px;
+    left: 40px;
+
+}
+
+.c2 {
+
+    top: 80px;
+    left: 140px;
+
+}
+
+.c3 {
+
+    top: 30px;
+    right: 40px;
+
+}
+
+.c4 {
+
+    bottom: 20px;
+    left: 80px;
+
+}
+
+.c5 {
+
+    bottom: 40px;
+    right: 80px;
+
+}
+
+/* FLOATING EFFECT */
+
+@keyframes float {
+
+    0% {
+
+        transform: translateY(0px);
+
+    }
+
+    50% {
+
+        transform: translateY(-15px);
+
+    }
+
+    100% {
+
+        transform: translateY(0px);
+
+    }
 
 }
 
